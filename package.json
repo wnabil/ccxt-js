@@ -79,7 +79,6 @@
     "copy-python-license": "node build/copy LICENSE.txt python/LICENSE.txt",
     "copy-python-keys": "node build/copy keys.json python/keys.json",
     "copy-python-readme": "node build/copy README.md python/README.md",
-    "postinstall": "node postinstall.js",
     "validate-types": "tsx build/validate-types.ts",
     "live-tests": "node run-tests --useProxy",
     "live-tests-rest": "npm run live-tests",
