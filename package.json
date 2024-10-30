@@ -3,11 +3,8 @@
   "version": "4.4.19",
   "description": "A JavaScript / TypeScript / Python / C# / PHP cryptocurrency trading library with support for 100+ exchanges",
   "type": "module",
-  "exports": {
-    ".": {
-      "import": "./ccxt.js"
-    }
-  },
+  "main": "./ccxt.js",
+  "types": "./ccxt.d.ts",
   "engines": {
     "node": ">=15.0.0"
   },
@@ -146,7 +143,6 @@
     "test-freshness": "tsx ./utils/test-freshness.ts",
     "benchmark": "tsx examples/ts/benchmark.ts"
   },
-  "types": "./js/ccxt.d.ts",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.3",
     "@rollup/plugin-json": "^4.1.0",
